@@ -8,31 +8,31 @@
 <html>
 <head>
 	<title>Testing</title>
-	<link rel="stylesheet" type="text/css" href="register.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
 </head>
-<tbody>
+<body>
  
 	<h1>Percobaan<br/></h1>
  
 	<div class="kotak_login">
-		<p class="tulisan_login">Silahkan login</p>
+		<p class="tulisan_login">Member Login</p>
  
 		<form action="proseslogin.php" method="post">
-			<label>Username</label>
+			<label><p class="color_font">Username<p></label>
 			<input type="text" name="username" class="form_login" placeholder="Username atau email ..">
  
-			<label>Password</label>
+			<label><p class="color_font">Password<p></label>
 			<input type="password" name="password" class="form_login" placeholder="Password ..">
  
 			<input type="submit" class="tombol_login" value="Login"><br/><br/><input value="Batal" type="reset" class="tombol_login"></td></tr>
  
 			<br/>
 			<br/>
-			<tr><td colspan="2" align="center" class="daftar">Belum Punya akun ? <a href="daftar.php"><b>Daftar</b></a></td></tr>
+			<tr><td colspan="2" align="center" class="daftar"><p class="color_font">Belum Punya akun ?<p><a href="daftar.php"><b>Daftar</b></a></td></tr>
 		</form>
 		
 	</div>
  
  
-</tbody>
+</body>
 </html>
