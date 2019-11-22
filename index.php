@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>COBA</title>
-</head>
-<body>
-	<h1>Ini Belajar Pull Push</h1>
-	<h1>Zalsabilapa</h1>
-	<h1>Shinta</h1>
-	<h1>Ini Belajar Pull Push raihan</h1>
-</body>
-</html>
+<?php
+session_start();
+if(!isset($_SESSION['username'])) {
+   header('location:login.php'); 
+} else { 
+   $username = $_SESSION['username']; 
+}
+?>
+
+<title>Halaman Sukses Login</title>
+<div align='center'>
+   Selamat Datang, <b><?php echo $username;?></b> <a href="logout.php"><b>Logout</b></a>
+</div>
