@@ -7,28 +7,32 @@
 
 <html>
 <head>
-	<title>Testing</title>
-	<link rel="stylesheet" type="text/css" href="login.css">
+	<title>Form Login</title>
+	<link rel="stylesheet" type="text/css" href="loginregister.css">
 </head>
 <body>
  
-	<h1>Percobaan<br/></h1>
  
 	<div class="kotak_login">
-		<p class="tulisan_login">Member Login</p>
+		<h1>Member Login</h1>
  
 		<form action="proseslogin.php" method="post">
 			<label><p class="color_font">Username<p></label>
-			<input type="text" name="username" class="form_login" placeholder="Username atau email ..">
+			<input type="text" name="username" class="form_login" placeholder="Username atau Email">
  
 			<label><p class="color_font">Password<p></label>
-			<input type="password" name="password" class="form_login" placeholder="Password ..">
+			<input type="password" name="password" class="form_login" placeholder="Password">
  
-			<input type="submit" class="tombol_login" value="Login"><br/><br/><input value="Batal" type="reset" class="tombol_login"></td></tr>
+			<input value="Login" type="submit" class="tombol_login">
+			<br/>
+			<br/>
+			<input value="Batal" type="reset" class="tombol_login">
  
 			<br/>
 			<br/>
-			<tr><td colspan="2" align="center" class="daftar"><p class="color_font">Belum Punya akun ?<p><a href="daftar.php"><b>Daftar</b></a></td></tr>
+			<tr><td colspan="2" align="center" class="">
+				<p class="color_font">Belum Punya akun ?<p><a href="daftar.php"><b>Daftar</b></a>
+			</td></tr>
 		</form>
 		
 	</div>
