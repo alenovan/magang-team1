@@ -9,6 +9,8 @@
 <head>
 	<title>Form Login</title>
 	<link rel="stylesheet" type="text/css" href="loginregister.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
  
@@ -23,10 +25,11 @@
 			<label><p class="color_font">Password<p></label>
 			<input type="password" name="password" class="form_login" placeholder="Password">
  
-			<input value="Login" type="submit" class="tombol_login">
-			<br/>
-			<br/>
-			<input value="Batal" type="reset" class="tombol_login">
+		<table>
+      		<tr><td colspan="2" align="right">
+      		<input value="Login" type="submit" class="tombol_login">                 
+      		<input value="Batal" type="reset" class="tombol_login"></td></tr>
+      	</table>
  
 			<br/>
 			<br/>

@@ -6,19 +6,27 @@
 <html>
 <title>Form Pendaftaran</title>
 <link rel="stylesheet" type="text/css" href="loginregister.css">
+  <div class="kotak_login">
+    <h1>Daftar Baru</h1>
+ 
+    <form action="prosesdaftar.php" method="post">
+      <label><p class="color_font">Username<p></label>
+      <input type="text" name="username" class="form_login">
+ 
+      <label><p class="color_font">Password<p></label>
+      <input type="password" name="password" class="form_login">
+      <table>
+      <tr><td colspan="2" align="right">
+      <input value="Daftar" type="submit" class="tombol_login">                 
+      <input value="Batal" type="reset" class="tombol_login"></td></tr>
+      </table>
+      <br/>
+      <br/>
+      <tr><td colspan="2" align="center" class="">
+        <p class="color_font">Belum Punya akun ?<p><a href="login.php"><b>Login</b></a>
+      </td></tr>
+    </form>
+    
+  </div>
 
-<div align='center' class="kotak_login">
-  <form action="prosesdaftar.php" method="post">
-  <table>
-  <tbody>
-  <tr><td colspan="2" align="center"><h1>Daftar Baru</h1></td></tr>
-  <tr><td><p class="color_font">Username</p></td><td> : <input name="username" type="text" class="form_login"></td></tr>
-  <tr><td><p class="color_font">Password</p></td><td> : <input name="password" type="password" class="form_login"></td></tr>
-  <tr><td colspan="2" align="right"><input value="Daftar" type="submit" class="tombol_login"> 
-                                    <input value="Batal" type="reset" class="tombol_login"></td></tr>
-  <tr><td colspan="2" align="center"><p class="color_font">Sudah Punya akun ? </p><a href="login.php"><b>Login</b></a></td></tr>
-  </tbody>
-  </table>
-  </form>
-</div>
 </html>
