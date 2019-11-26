@@ -32,8 +32,6 @@
       	</table>
  
 			<br/>
-			<br/>
-			<tr><td colspan="2" align="center" class="">
 				<p class="color_font">Belum Punya akun ?<p><a href="daftar.php"><b>Daftar</b></a>
 			</td></tr>
 		</form>

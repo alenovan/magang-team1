@@ -10,20 +10,22 @@
     <h1>Daftar Baru</h1>
  
     <form action="prosesdaftar.php" method="post">
-      <label><p class="color_font">Username<p></label>
-      <input type="text" name="username" class="form_login">
- 
-      <label><p class="color_font">Password<p></label>
-      <input type="password" name="password" class="form_login">
+      Username     <input type="text" name="username" class="form_login">
+      Password     <input type="password" name="password" class="form_login">
+      Nama lengkap <input type="text" name="nama" class="form_login">
+      <label><p class="color_font">Jenis Kelamin<p></label>
+      <input type="radio" name="gender" value="Laki-Laki">Laki-Laki
+      <input type="radio" name="gender" value="Perempuan">Perempuan<br/><br/>
+      Tanggal Lahir <br/><br/><input type="date" name="TTL" ><br/><br/>
+    
+
       <table>
       <tr><td colspan="2" align="right">
       <input value="Daftar" type="submit" class="tombol_login">                 
       <input value="Batal" type="reset" class="tombol_login"></td></tr>
       </table>
       <br/>
-      <br/>
-      <tr><td colspan="2" align="center" class="">
-        <p class="color_font">Belum Punya akun ?<p><a href="login.php"><b>Login</b></a>
+        <p class="color_font">Sudah Punya Akun?<p><a href="login.php"><b>Login</b></a>
       </td></tr>
     </form>
     
